@@ -1,44 +1,57 @@
-Here is your **pure README.md code** (no extra text, ready to paste):
-
 ```md
-# 📊 SQL Project – Customer & Orders Analysis
+# 🗄️ SQL Data Analysis Project  
+### Data Transformer
 
-## 📁 Project Structure
+---
+
+## 🚀 Project Overview  
+This project demonstrates **SQL data analysis and transformation skills** using a structured dataset of **Customers and Orders**.
+
+It focuses on extracting meaningful insights using **joins, aggregations, ranking, and date functions**.
+
+✨ Built to showcase:
+- Real-world SQL querying  
+- Data transformation techniques  
+- Analytical thinking  
+- Clean query structuring  
+
+---
+
+## 📂 Project Structure  
+
 ```
 
 SQL_PR2/
-│── DataTransformer.sql
-│── README.md
 │
+├── DataTransformer.sql
 └── Screenshots/
-├── s1.png
-├── s2.png
-├── s3.png
-├── s4.png
-├── s5.png
-├── s6.png
-├── s7.png
 
 ```
 
 ---
 
-## 📌 Project Description
-This project is based on SQL queries to manage and analyze **Customer and Orders data**.  
-It includes table creation, data insertion, filtering, date operations, ranking, and aggregation.
+## 🧠 Concepts & SQL Operations Used  
+
+- SELECT, WHERE, ORDER BY  
+- INNER JOIN  
+- GROUP BY, HAVING  
+- Aggregate Functions (SUM, COUNT)  
+- Date Functions (YEAR, MONTH, DATEDIFF)  
+- Ranking Functions (RANK)  
+- Filtering & Conditions  
 
 ---
 
-## 🗂️ Database Details
+## 📊 Dataset Description  
 
-### Customers Table
+### 👤 Customers Table  
 - CustomerID  
 - FirstName  
 - LastName  
 - Email  
 - RegistrationDate  
 
-### Orders Table
+### 🛒 Orders Table  
 - OrderID  
 - CustomerID  
 - OrderDate  
@@ -46,67 +59,99 @@ It includes table creation, data insertion, filtering, date operations, ranking,
 
 ---
 
-## ⚙️ Features Implemented
+## 🔄 Workflow  
 
-- Table creation using SQL  
-- Inserting Indian sample data (10 records each)  
-- Filtering data using conditions  
-- Working with NULL values  
-- Date functions (YEAR, MONTH, DATEDIFF)  
-- Ranking using window functions  
-- Sorting and grouping  
-
----
-
-## 📸 Sample Outputs
-
-### 🔹 Customer & Orders Data
-![Customers and Orders](Screenshots/s1.png)
-
-### 🔹 Full Data View
-![Full Data](Screenshots/s2.png)
-
-### 🔹 Joined Data
-![Joined Table](Screenshots/s3.png)
-
-### 🔹 Filtered Customers
-![Filtered Data](Screenshots/s4.png)
-
-### 🔹 Extract Year & Month
-![Year Month](Screenshots/s5.png)
-
-### 🔹 Date Difference Calculation
-![Date Difference](Screenshots/s6.png)
-
-### 🔹 Ranking Orders by Amount
-![Ranking](Screenshots/s7.png)
-
----
-
-## 🧠 Concepts Used
-
-- SELECT, WHERE, BETWEEN  
-- JOIN operations  
-- GROUP BY & HAVING  
-- ORDER BY  
-- Window Functions (RANK)  
-- Date Functions  
-
----
-
-## ▶️ How to Run
-
-1. Open MySQL Workbench or VS Code  
-2. Load `DataTransformer.sql`  
-3. Execute all queries  
-4. View results  
-
----
-
-## 🎯 Conclusion
-
-This project demonstrates practical use of SQL for:
-- Data management  
-- Data analysis  
-- Real-world query writing  
 ```
+
+Raw Data → Join Tables → Apply Filters → Aggregation → Ranking → Insights
+
+```
+
+---
+
+## 📸 Query Outputs (Screenshots)
+
+---
+
+### 📊 Customer & Orders Data (JOIN)
+<p align="center">
+  <img src="Screenshots/s1.png" width="800">
+</p>
+
+---
+
+### 🔍 Combined Dataset View  
+<p align="center">
+  <img src="Screenshots/s2.png" width="800">
+</p>
+
+---
+
+### 📋 Full Data Representation  
+<p align="center">
+  <img src="Screenshots/s3.png" width="800">
+</p>
+
+---
+
+### 🎯 Filtered Customers (Condition Applied)  
+<p align="center">
+  <img src="Screenshots/s4.png" width="800">
+</p>
+
+---
+
+### 📅 Extract Year & Month from Orders  
+<p align="center">
+  <img src="Screenshots/s5.png" width="800">
+</p>
+
+---
+
+### ⏱️ Days Difference Calculation  
+<p align="center">
+  <img src="Screenshots/s6.png" width="800">
+</p>
+
+---
+
+### 🏆 Ranking Orders by Amount  
+<p align="center">
+  <img src="Screenshots/s7.png" width="800">
+</p>
+
+---
+
+## 🏆 Key Highlights  
+
+✔ Performed **table joins for relational insights**  
+✔ Extracted **time-based analytics (Year, Month)**  
+✔ Calculated **date differences using DATEDIFF**  
+✔ Ranked records using **RANK() function**  
+✔ Applied filters for **targeted data extraction**  
+
+---
+
+## 💡 Real-World Use Cases  
+
+- 📊 E-commerce analytics  
+- 👥 Customer behavior tracking  
+- 💰 Revenue analysis  
+- 📈 Sales performance ranking  
+
+---
+
+## 🛠️ How to Run  
+
+1. Open your SQL environment (MySQL / PostgreSQL)  
+2. Import or open `DataTransformer.sql`  
+3. Execute queries step by step  
+4. View outputs and compare with screenshots  
+
+---
+
+## 👤 Author  
+
+**Devan Patel**  
+
+
